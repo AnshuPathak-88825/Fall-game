@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+#game {
+    height: 500px;
+    width: 400px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+#character {
+    width: 20px;
+    height: 20px;
+    border: 1px solid red;
+    border-radius: 50%;
+    position: relative;
+    top: 450px;
+    left: 20px;
+    z-index: 1000;
+
+}
+
+.block {
+    width: 400px;
+    height: 20px;
+    background-color: black;
+    /* border: 1px solid black; */
+    
+    position: relative;
+
+    top: 100px;
+    margin-top: -20px;
+
+
+}
+
+.hole {
+    width: 40px;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: 100px;
+    margin-top: -20px;
+}
